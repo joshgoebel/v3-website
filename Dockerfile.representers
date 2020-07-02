@@ -1,0 +1,4 @@
+# FROM exercism/csharp-representer AS csharp
+
+FROM alpine:latest
+CMD ["ls"]

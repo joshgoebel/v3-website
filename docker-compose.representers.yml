@@ -1,0 +1,10 @@
+version: "3"
+services:
+  csharp-representer:
+    build: ../csharp-representer
+    image: exercism/csharp-representer
+
+  representer:
+    build:
+      context: .
+      dockerfile: Dockerfile.representers
